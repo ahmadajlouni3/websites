@@ -20,6 +20,16 @@ body{
     padding:0px 25px;
 }
 
+@media only screen and (max-width:600px){
+    .green{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width:500px){
+    .green{
+        font-size:10px;
+    }
+}
 /*==================green zone end=====================*/
 
 .red{
