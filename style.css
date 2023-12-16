@@ -24,10 +24,16 @@ body{
     .green{
         font-size:15px;
     }
+    .blue{
+        grid-template-columns:repeat(auto-fill , minmax(24% , 300px));
+    }
 }
 @media only screen and (max-width:500px){
     .green{
         font-size:10px;
+    }
+    .blue{
+        grid-template-columns:repeat(auto-fill , minmax(24% , 300px));
     }
 }
 /*==================green zone end=====================*/
