@@ -87,7 +87,7 @@ body{
 
 @media only screen and (max-width:998px){
     .green{
-        font-size:10px;
+        font-size:13px;
     }
     .blue{
         display:grid;
@@ -99,7 +99,7 @@ body{
 }
 @media only screen and (max-width:660px){
     .green{
-        font-size:15px;
+        font-size:8px;
     }
     .blue{
         display:grid;
