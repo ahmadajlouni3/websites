@@ -20,22 +20,7 @@ body{
     padding:0px 25px;
 }
 
-@media only screen and (max-width:600px){
-    .green{
-        font-size:15px;
-    }
-    .blue{
-        grid-template-columns:repeat(auto-fill , minmax(24% , 300px));
-    }
-}
-@media only screen and (max-width:500px){
-    .green{
-        font-size:10px;
-    }
-    .blue{
-        grid-template-columns:repeat(auto-fill , minmax(24% , 300px));
-    }
-}
+
 /*==================green zone end=====================*/
 
 .red{
@@ -95,4 +80,32 @@ body{
 .zone {
     cursor:pointer;
     color:#FFF;
+}
+
+
+
+
+@media only screen and (max-width:998px){
+    .green{
+        font-size:10px;
+    }
+    .blue{
+        display:grid;
+        grid-template-columns:49% 49%;
+        grid-gap:20px;
+        padding:10px;
+        justify-items: center;
+    }
+}
+@media only screen and (max-width:660px){
+    .green{
+        font-size:15px;
+    }
+    .blue{
+        display:grid;
+        grid-template-columns:100%;
+        grid-gap:20px;
+        padding:10px;
+        justify-items: center;
+    }
 }
